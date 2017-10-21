@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+
+  <%- include( 'partials/head' ); %>
+  
+</head>
+
+<body>
+  
+	<%- include( 'partials/nav' ); %>
+	
+	<div class="content box-content">
+	  
+      <%- include( 'partials/box-image', { listing: listing } ) %>
+    
+      <div class="details">
+        
+        <%- include( 'partials/box-description', { listing: listing } ) %>
+        
+        <%- include( 'forms/booking', { booked: booked } ) %>
+  
+        <%- include( 'partials/reviews', { listing : listing, reviewed: reviewed } ) %>
+        
+      </div>
+    
+	</div>
+	
+  <%- include( 'partials/footer' ); %>
+	
+</body>
+
+</html>

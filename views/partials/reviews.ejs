@@ -1,0 +1,44 @@
+<h3>
+  Reviews:
+</h3>
+<div class="reviews">
+  
+  <% if ( reviewed ) { %>
+     
+    <p class="thanks">Thanks for your review!</p>
+  
+  <% } else { %>
+  
+    <a href="/review/<%= listing.id %>" class="button">Add a Review</a>
+  
+  <% } %>
+
+  <% if ( listing.reviews ) { %>
+  
+    <% listing.reviews.forEach( function( r, i ) { %>
+  
+      <div class="review">
+        <div class="rating-stars" data-val="<%= r.rating %>"><div>
+        <p>
+          <%= r.body %>
+        </p>
+      </div>
+          
+    <% }) %>
+
+  <% } else { %>
+          
+    <p>
+      No reviews yet. Be the first!
+    </p>
+          
+  <% } %>
+</div>
+        
+<script>
+
+   $( '.rating-stars' ).each( function() {
+     $( this ).rateYo( { rating: $( this ).data( 'val' ) }, readOnly: true } )
+   })
+
+</script>

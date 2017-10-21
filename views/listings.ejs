@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+
+  <%- include( 'partials/head' ); %>
+  
+</head>
+
+<body>
+  
+	<%- include( 'partials/nav' ); %>
+	
+	<%- include( 'partials/search-filters', { listings: listings } ); %>
+	
+	<div class="content">
+	  
+		<ul class="listings">
+      
+      <% listings.forEach( function( listing, i ) { %>
+      
+        <li id="<%= i %>">
+          
+          <a href="/box/<%= i %>">
+            
+            <%- include( 'partials/box-image', { listing: listing } ) %>
+            
+            <div class="details">
+              
+              <%- include( 'partials/box-description', { listing: listing } ) %>
+              
+            </div>
+            
+          </a>
+          
+        </li>
+      
+      <% }) %>
+      
+		</ul>
+		
+	</div>
+  
+  <%- include( 'partials/footer' ); %>
+	
+</body>
+
+</html>

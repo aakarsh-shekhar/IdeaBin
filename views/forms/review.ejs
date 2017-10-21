@@ -1,0 +1,30 @@
+<h3>
+  Review:
+</h3>
+
+<form class="full-width" method="post">
+
+  <label for="name">Name</label>
+  <input id="name" name="name"></input>
+
+  <div id="rating-stars"></div>
+  <input id="rating" name="rating" class="hide"></input>
+  
+  <label for="comment">Comment</label>
+  <textarea id="comment" name="comment"></textarea>
+
+  <div class="buttons">
+    <button type="submit">Submit</button>
+  </div>
+
+</form>
+
+<script>
+
+   $( '#rating-stars' ).rateYo( { rating: 0, fullStar: true } )
+  
+   $( '#rating-stars' ).on( 'rateyo.set', function (e, data) {
+     $( '#rating' ).val( data.rating )
+   });
+
+</script>

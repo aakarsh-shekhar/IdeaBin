@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+
+  <%- include( 'partials/head' ); %>
+  
+  <style>
+  </style>
+  
+</head>
+
+<body>
+  
+	<%- include( 'partials/nav' ); %>
+	
+	<div class="content">
+	  
+      <%- include( 'partials/box-image', { listing: listing } ) %>
+    
+      <div class="details">
+        
+        <%- include( 'partials/box-description', { listing: listing } ) %>
+     
+        <%- include( 'forms/review' ) %>
+        
+      </div>
+		
+	</div>
+	
+  <%- include( 'partials/footer' ); %>
+	
+</body>
+
+</html>
