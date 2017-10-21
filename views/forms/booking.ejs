@@ -1,24 +1,16 @@
-<% if ( booked ) { %>
-        
-  <p class="thanks">Thanks for booking with us. Your host will contact you shortly for confirmation.</p>
+<form method="post">
 
-<% } else { %>
+  <label for="start">Check In Date</label>
+  <input id="start" name="start"></input>
 
-  <form method="post">
-    
-    <label for="start">Check In Date</label>
-    <input id="start" name="start"></input>
+  <label for="end">Check Out Date</label>
+  <input id="end" name="end"></input>
 
-    <label for="end">Check Out Date</label>
-    <input id="end" name="end"></input>
+  <div class="buttons">
+    <button type="submit">Book This Box!</button>
+  </div>
 
-    <div class="buttons">
-      <button type="submit">Book This Box!</button>
-    </div>
-
-  </form>
-
-<% } %>
+</form>
 
 
 <script>

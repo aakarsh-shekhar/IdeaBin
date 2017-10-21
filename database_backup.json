@@ -7,14 +7,7 @@
       "description": "This box is the perfect size to curl up in.<br>P.S. Do not tip the humans with field mice. They get all weird about it.",
       "category": "box",
       "price": 5.12,
-      "reviews": [
-        {
-          "rating": "5",
-          "comment": "It was great",
-          "name": "Nemo"
-        }
-      ],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 1,
@@ -23,8 +16,7 @@
       "description": "Perfect for those who like to stretch out in their box",
       "category": "box",
       "price": 2.89,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 2,
@@ -33,8 +25,7 @@
       "description": "The tissue paper makes the most satisfying crinkling noises.",
       "category": "box",
       "price": 1.88,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 3,
@@ -43,8 +34,7 @@
       "description": "Hi! I'm renting out my dog. He is very soft and made of warm.",
       "category": "other",
       "price": 4.88,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 4,
@@ -53,8 +43,7 @@
       "description": "This boot is both fashionable and cozy.",
       "category": "other",
       "price": 17.31,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 5,
@@ -63,8 +52,7 @@
       "description": "Includes two human servants.<br>The humans like to sleep in past sunrise. If you like your breakfast early, pawing at their faces usually wakes them up.",
       "category": "bed",
       "price": 12.11,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 6,
@@ -73,8 +61,7 @@
       "description": "Every cat knows in their heart we're meant to be sneaking through trees and dropping on unsuspecting mice (or toes!). That's why we had our humans design the perfect habitat.",
       "category": "other",
       "price": 9.78,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 7,
@@ -83,8 +70,7 @@
       "description": "You sleep in the flat side. Snacks go in the cups.",
       "category": "other",
       "price": 0.51,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "id": 8,
@@ -93,8 +79,7 @@
       "description": "Has a nice breeze. Gets sun in the afternoon.",
       "category": "other",
       "price": 4.99,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     },
     {
       "name": "Spaceship Box",
@@ -103,8 +88,7 @@
       "category": "box",
       "image": "/images/098692c75e1de3bc9dd6330a52927d03-07b603c887ade0472c365aa1ccacd250.jpg",
       "id": 9,
-      "reviews": [],
-      "bookings": []
+      "reviews": []
     }
   ]
 }

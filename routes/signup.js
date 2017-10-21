@@ -17,9 +17,9 @@ app.post( '/signup', upload.single('image'), function (request, response) {
     listing.image   = imageName.substring('public'.length);   // save the image path in our database (and remove 'public' from the beginning of the path)
   }
 
-  listing.id      = database.listings.length;               // assign this listing a unique id
-  listing.price   = +listing.price;                         // convert the price from a string to a number
-  listing.reviews = [];                                     // initially, no reviews for this listing
+  listing.id       =  database.listings.length;               // assign this listing a unique id
+  listing.price    =  +listing.price;                         // convert the price from a string to a number
+  listing.reviews  =  listing.bookings  =  [];                // initially, no reviews or bookings for this listing
 
   database.listings.push( listing );
 

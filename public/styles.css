@@ -58,7 +58,7 @@ html, body {
 
 .footer a:hover {
     color: orange;
-}
+}.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-rated-group
 
 .content {
   min-height: 714px;  
@@ -312,4 +312,25 @@ form:not(.no-style) input, form:not(.no-style) textarea {
 
 .signup-content input[type=submit] {
   margin-top: 10px;
+}
+
+h4 {
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+.review {
+  background: white;
+  padding: 16px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.review p:last-child {
+  margin-bottom: 0;
+}
+
+.jq-ry-rated-group,
+.jq-ry-normal-group {
+  z-index: 0 !important;
 }

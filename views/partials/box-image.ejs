@@ -1,1 +1,3 @@
-<img class="box-image" src="<%= listing.image %>">
+<% if ( listing.image ) { %>
+  <img class="box-image" src="<%= listing.image %>">
+<% } %>

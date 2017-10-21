@@ -1,27 +1,20 @@
-<h3>
-  Reviews:
-</h3>
+
 <div class="reviews">
-  
-  <% if ( reviewed ) { %>
-     
-    <p class="thanks">Thank you for your review!</p>
-  
-  <% } else { %>
-  
-    <a href="/review/<%= listing.id %>" class="button">Add a Review</a>
-  
-  <% } %>
 
   <% if ( listing.reviews ) { %>
   
     <% listing.reviews.forEach( function( r, i ) { %>
   
       <div class="review">
-        <div class="rating-stars" data-val="<%= r.rating %>"><div>
-        <p>
-          <%= r.body %>
-        </p>
+        
+        <div class="rating-stars" data-val="<%= r.rating || 0 %>"></div>
+        
+        <% if ( r.comment ) { %>
+          <p><%= r.comment %></p>
+        <% } %>
+        
+        <h4>- <%= r.name || 'Anonymous' %></h4>
+        
       </div>
           
     <% }) %>
@@ -33,6 +26,7 @@
     </p>
           
   <% } %>
+          
 </div>
         
 <script>
