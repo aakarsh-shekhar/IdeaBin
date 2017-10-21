@@ -97,8 +97,6 @@ html, body {
 
 .listings li img {
     height: 100%;
-    object-fit: cover;
-    width: 50%;
 }
 
 .filter-bar {
@@ -155,8 +153,9 @@ html, body {
 
 .details {
   text-align: left;
-  float: right;
   width: 50%;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .details > * {
@@ -166,17 +165,6 @@ html, body {
 
 .details p {
   text-align: left;
-}
-
-/* Media queries are used to apply different rules based on screen size */
-@media (max-width: 1550px) {
-  .listings li img {
-    max-width: 100%;
-    width: 100%;
-  }
-  .details {
-    width: 100%;
-  }
 }
 
 /* Calendar styles
@@ -288,11 +276,39 @@ form:not(.no-style) input, form:not(.no-style) textarea {
 
 .box-content {
   max-width: 800px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .box-image {
-  max-width: 50%;
+  width: 49%;
   max-height: 300px;
   object-fit: cover;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.thanks {
+  border-radius: 5px;
+  background-color: #ffcb52;
+  padding: 5px 10px 3px;
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.signup-content {
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.details a {
+  color: blue;
+}
+
+.signup-content input[type=submit] {
+  margin-top: 10px;
 }
