@@ -24,7 +24,7 @@ Outline
     -mention databases, but won't be teaching them
     
 -Part 1: HTML
-  -introduce gomix
+  -introduce glitch
   -give them the url: gomix.com/#!/project/sprinkle-sunshine
   -explain remixing, how to reset if they get lost
   -what is HTML
@@ -44,24 +44,25 @@ Outline
   
 -Part 4: JavaScript
   -what is programming? What is JavaScript?
-  -basic programming tutorial. Use Chrome dev tools console.
-      -expressions (5+8)
-      -calling functions (Math.Random(), string.split())
-      -making functions
-      -variables, arrays
-      -if, while, for (if today is Thursday, console.log(25¢ wings night)
-      -objects
       
 -Part 5: nodejs
   -what is front-end and backend?
   -what is nodejs?
   -(walk through nodejs)
-  -nodejs exercise
   
--Part 6: Browser scripting
+-Part 6: Express
+  -GET requests
+  -templating
+    - includes
+  -request parameters
+  
+-Part 7:
+  -forms
+  -POST requests
+    - request body
+  -query parameters
+  
+-Part 8: Browser scripting
   -what is browser scripting?
-  -walk through client side js
-  
--Part 7: extra/advanced material (In case we have extra time or advanced students)
-  -advanced topics: websockets, forms, file upload, security
-  -advanced challenges: post new listing. Generate funny names. Chat with poster.
+  -datepicker plugin
+  -RateYo plugin

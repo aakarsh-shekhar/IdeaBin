@@ -1,21 +1,23 @@
+/* global app, database */
+
 // server.js
 // where your node app starts
 
 // First we require all the libraries we want to use
 
-// Express is the framework that allows us to accept requests and generate responses
+// Express is a framework for accepting HTTP requests and generating HTML responses
 var express      = require('express');
-// BodyParser lets us read form data
+// BodyParser reads form submissions
 var bodyParser   = require('body-parser');
-// RequireGlob lets us import all our routes in 1 command
+// RequireGlob imports all our controllers
 var requireGlob  = require('require-glob');
-// This module allows us to use a JSON file as a database
-var db           = require('./lib/jsonDatabase');
+// JsonDatabase sets up a JSON file as our database
+var jsonDb       = require('./lib/jsonDatabase');
 
 // Here we define the application instance
 global.app       = express();
 // And here we define the database connection
-global.database  = db( 'database.json' );
+global.database  = jsonDb( 'database.json' );
 
 // Now we listen for incoming requests
 app.listen( process.env.PORT );
@@ -26,5 +28,5 @@ app.use( express.static( 'public' ) );
 // Read information encoded in the request body ( Mostly forms )
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
-// Load all the routes
+// import all the controllers
 requireGlob( './controllers/*' )

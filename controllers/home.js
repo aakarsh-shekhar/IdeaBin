@@ -1,3 +1,5 @@
+/* global app, database */
+
 // This is the Home controller
 
 // app.get is how we listen for GET requests
@@ -9,8 +11,15 @@
 // Express gives us a request and a response object
 // We call 'render' on the response object with the 'home' view as its argument
 // Express generates the response HTML from the file 'views/home.ejs'
-// The view uses the Templating language EJS, or Embedded JavaScript
-// Read more about EJS at http://ejs.co
+
 app.get(  '/', function( request, response ) {
   response.render( 'home' );
+})
+
+// The following is an example of a route with a request parameter
+
+// Try it out at /hi/Suzy
+app.get( '/hi/:name', function( request, response ) {
+  var name = request.params.name;
+  response.send('Hi ' + name + '!')
 })

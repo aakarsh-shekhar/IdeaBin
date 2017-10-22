@@ -1,4 +1,8 @@
+/* global app, database */
+
+// This is the page for listing all the available boxes
+// all the listings are passed along the to 'listings' view
+
 app.get(  '/listings', function( request, response ) {
-  var data = { listings: database.listings };
-  response.render( 'listings', data )
+  response.render( 'listings', { listings: database.listings } )
 })

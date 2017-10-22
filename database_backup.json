@@ -7,7 +7,13 @@
       "description": "This box is the perfect size to curl up in.<br>P.S. Do not tip the humans with field mice. They get all weird about it.",
       "category": "box",
       "price": 5.12,
-      "reviews": []
+      "reviews": [
+        {
+          "rating": "5",
+          "comment": "It was great",
+          "name": "Nemo"
+        }
+      ]
     },
     {
       "id": 1,
