@@ -27,4 +27,4 @@ app.use( express.static( 'public' ) );
 app.use( bodyParser.urlencoded( { extended: true } ) );
 
 // Load all the routes
-requireGlob( './routes/*' )
+requireGlob( './controllers/*' )
