@@ -21,7 +21,7 @@
 
 .nav ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 60px;
 }
 
 
@@ -29,11 +29,14 @@
     display: inline;
     margin-right: 60px;
     font-size: 20px;
+    position: relative;
 }
 
 
 .nav img {
-    transform: translateY(8px);
+    transform: translate( -60px, calc( -50% - 4px ) );
+    position: absolute;
+    top: 50%;
 }
 
 

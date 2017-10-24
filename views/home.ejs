@@ -1,14 +1,6 @@
-<!--htmlhint spec-char-escape:false -->
-<!--
-This view uses the Templating language EJS, or Embedded JavaScript
-Read more about EJS at http://ejs.co
+<!-- htmlhint spec-char-escape:false
 
-This is the template for our homepage.
-It's a bit different than your standard HTML file.
-For starters, EJS has its own comment tag
-which you can see surrounding this comment.
-
-All EJS tags close the same way.
+This is our 'home' view.
 -->
 
 <!DOCTYPE html>
@@ -19,9 +11,10 @@ All EJS tags close the same way.
 
   <!--
   This EJS tag evaluates and prints the statement following it
-  The 'include' statement evaluates to the specified view partial.
+  The 'include' statement allows us to insert content from other views (called partials) into this view.
   
-  The 'head' partial, located at 'views/partials/head.ejs' has our JavaScript and CSS dependencies.  
+  The 'head' partial, located at 'views/partials/head.ejs' has all of our JavaScript and CSS dependencies.
+  If you remove it, the site will look quite plain.
   -->
   
   <%- include( 'partials/head' ); %>
@@ -54,7 +47,7 @@ All EJS tags close the same way.
   
   <!--
   The 'footer' partial contains our site's footer. Don't forget to put your name in there :)
-  %>
+  -->
 	
   <%- include( 'partials/footer' ); %>
 	

@@ -15,11 +15,3 @@
 app.get(  '/', function( request, response ) {
   response.render( 'home' );
 })
-
-// The following is an example of a route with a request parameter
-
-// Try it out at /hi/Suzy
-app.get( '/hi/:name', function( request, response ) {
-  var name = request.params.name;
-  response.send('Hi ' + name + '!')
-})

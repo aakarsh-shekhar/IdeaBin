@@ -20,12 +20,12 @@
         
         <%- include( 'partials/box-description', { listing: listing } ) %>
         
-        <%#
+        <!--
         The following lines are a template using an if/else block
         It first checks to see if "booking_message" has been defined
         If so it prints whatever is inside the variable "booking_message"
         Else it prints the booking form
-        %>
+        -->
         
         <% if ( booking_message ) { %>
         
@@ -51,12 +51,12 @@
           Reviews
         </h3>
         
-        <%#
+        <!--
         It is best practice to create reusable components.
         Here we have the view partial "message" which print the exact same message as the one used aboce in "booking_message"
         As an exercise, modify the code above for "booking_message" to use the same partial as "review_message" uses here
         You will need to modify the if/else block
-        %>
+        -->
         
         <%- include( 'partials/message', { message: review_message } ); %>
         

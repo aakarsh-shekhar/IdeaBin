@@ -1,6 +1,8 @@
-<%#
+<!-- htmlhint spec-char-escape:false -->
+
+<!-- 
 This partial prints out the site's navigation bar
-%>
+-->
 
 <div class="nav">
   <ul>
@@ -8,5 +10,6 @@ This partial prints out the site's navigation bar
     <li><a href="/">Home</a></li>
     <li><a href="/listings">Browse</a></li>
     <li><a href="/signup">Add Your Box</a></li>
+    <li><a href="https://glitch.com/edit/#!/<%= process.env.PROJECT_DOMAIN %>?path=NOTES.md:1:0" target="_blank">Glitch Editor</a></li>
   </ul>
 </div>
