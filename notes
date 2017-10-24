@@ -19,9 +19,6 @@ Outline
   -What is a web app?
   -How does the internet work?
   -Front vs Backend
-  -What we will teach
-    -what are the main technologies we'll be teaching (HTML, CSS, JavaScript, jQuery, nodejs)
-    -mention databases, but won't be teaching them
     
 -Part 1: HTML
   -introduce glitch
@@ -39,7 +36,6 @@ Outline
   -CSS exercise
   
 -Part 3: Introducing CatBnB
-  -Walk through homeless.html
   -Walk through home.html & home.css
   
 -Part 4: JavaScript
