@@ -9,6 +9,11 @@
       "price": 5.12,
       "reviews": [
         {
+          "rating": "3.5",
+          "comment": "ok",
+          "name": "Johnny"
+        },
+        {
           "rating": "5",
           "comment": "It was great",
           "name": "Nemo"
