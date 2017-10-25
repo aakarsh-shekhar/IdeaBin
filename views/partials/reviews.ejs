@@ -14,9 +14,7 @@ This partial prints out all the reviews for the passed in listing
         
         <div class="rating-stars" data-val="<%= r.rating || 0 %>"></div>
         
-        <% if ( r.comment ) { %>
-          <p><%= r.comment %></p>
-        <% } %>
+        <!-- TODO: Include comments with reviews -->
         
         <h4>- <%= r.name || 'Anonymous' %></h4>
         
