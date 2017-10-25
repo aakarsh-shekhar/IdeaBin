@@ -41,7 +41,12 @@
       "description": "The tissue paper makes the most satisfying crinkling noises.",
       "category": "box",
       "price": 1.88,
-      "reviews": []
+      "reviews": [
+        {
+          "rating": "3.5",
+          "name": "John"
+        }
+      ]
     },
     {
       "id": 3,
@@ -104,6 +109,15 @@
       "category": "box",
       "image": "/images/098692c75e1de3bc9dd6330a52927d03-07b603c887ade0472c365aa1ccacd250.jpg",
       "id": 9,
+      "reviews": []
+    },
+    {
+      "name": "Great box",
+      "description": "Really nice box",
+      "price": 1200,
+      "category": "box",
+      "image": "/images/c0e92dfe54ebc1ccd4ecb99f5ee685a2-apple-touch-icon.png",
+      "id": 10,
       "reviews": []
     }
   ]
