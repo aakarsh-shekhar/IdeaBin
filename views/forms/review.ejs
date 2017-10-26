@@ -53,7 +53,7 @@ Instead of a datepicker plugin, we use the Rate Yo plugin to give us a star-rati
 
   // To do this, enable the { fullstar: true } option within the rateYo() call.
   
-  $( '#rating-stars' ).rateYo()
+  $( '#rating-stars' ).rateYo({ fullstar: true })
   
   $( '#rating-stars' ).on( 'rateyo.set', function (e, data) {
     $( '#rating' ).val( data.rating )

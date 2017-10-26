@@ -9,6 +9,42 @@
       "price": 5.12,
       "reviews": [
         {
+          "rating": "3.7",
+          "name": "ni hao"
+        },
+        {
+          "rating": "4.3",
+          "name": ""
+        },
+        {
+          "rating": "1.6",
+          "name": "Peter"
+        },
+        {
+          "rating": "4.8",
+          "name": "box girl - ilove boxes"
+        },
+        {
+          "rating": "",
+          "name": "mom is gonna be so disappointed"
+        },
+        {
+          "rating": "2.8",
+          "name": "dude you are so wet"
+        },
+        {
+          "rating": "1.4",
+          "name": "he tried to bite me!"
+        },
+        {
+          "rating": "0.3",
+          "name": "lol"
+        },
+        {
+          "rating": "4.9",
+          "name": "o"
+        },
+        {
           "rating": "3.5",
           "comment": "ok",
           "name": "Johnny"
@@ -82,7 +118,20 @@
       "description": "Every cat knows in their heart we're meant to be sneaking through trees and dropping on unsuspecting mice (or toes!). That's why we had our humans design the perfect habitat.",
       "category": "other",
       "price": 9.78,
-      "reviews": []
+      "reviews": [
+        {
+          "rating": "5",
+          "name": ""
+        },
+        {
+          "rating": "3.8",
+          "name": ""
+        },
+        {
+          "rating": "4.6",
+          "name": ""
+        }
+      ]
     },
     {
       "id": 7,
@@ -119,6 +168,36 @@
       "image": "/images/c0e92dfe54ebc1ccd4ecb99f5ee685a2-apple-touch-icon.png",
       "id": 10,
       "reviews": []
+    },
+    {
+      "name": "Poop box",
+      "description": "Full of poop",
+      "price": 150,
+      "category": "box",
+      "id": 11,
+      "reviews": []
+    },
+    {
+      "name": "RVC ",
+      "description": "Cod... what else",
+      "price": 1000000000,
+      "category": "other",
+      "image": "/images/2bb32277daa496e6a7a6030862ce8a54-img26020.1426x713.jpg",
+      "id": 12,
+      "reviews": [
+        {
+          "rating": "1.5",
+          "name": "Bad roommate"
+        },
+        {
+          "rating": "4.8",
+          "name": "Johnny"
+        },
+        {
+          "rating": "2.3",
+          "name": "bbb"
+        }
+      ]
     }
   ]
 }
