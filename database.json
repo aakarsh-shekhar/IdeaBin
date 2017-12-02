@@ -1,12 +1,5 @@
 {
   "listings": [
-    {
-      "name": "Problem1",
-      "description": "Description123",
-      "price": 20,
-      "category": "B",
-      "id": 0,
-      "reviews": []
-    }
+]
   ]
 }
