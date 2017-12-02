@@ -4,9 +4,27 @@
       "name": "Solution for Cancer",
       "description": "Use Raspberry Pi to cure cancer",
       "price": 0,
-      "category": "box",
+      "category": "A",
       "id": 0,
-      "reviews": []
+      "reviews": [
+        {
+          "rating": "3.6",
+          "name": "abcb"
+        }
+      ]
+    },
+    {
+      "name": "build an app",
+      "description": "what it does",
+      "category": "C",
+      "id": 1,
+      "price": null,
+      "reviews": [
+        {
+          "rating": "3.7",
+          "name": "das ,"
+        }
+      ]
     }
   ]
 }
