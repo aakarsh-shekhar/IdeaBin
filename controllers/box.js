@@ -41,7 +41,6 @@ app.post( '/box/:id', function( request, response ) {
   // We assign the variable the name 'booking' as that is what is being submitted
   var form  = request.body;
   // Here we extract the start and end dates from the form.
-  var start = form.start;
   var end   = form.end;
   
   // In a real application, you would now send a confirmation email.

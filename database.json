@@ -1,30 +1,12 @@
 {
   "listings": [
     {
-      "name": "Solution for Cancer",
-      "description": "Use Raspberry Pi to cure cancer",
-      "price": 0,
-      "category": "A",
+      "name": "Problem1",
+      "description": "Description123",
+      "price": 20,
+      "category": "B",
       "id": 0,
-      "reviews": [
-        {
-          "rating": "3.6",
-          "name": "abcb"
-        }
-      ]
-    },
-    {
-      "name": "build an app",
-      "description": "what it does",
-      "category": "C",
-      "id": 1,
-      "price": null,
-      "reviews": [
-        {
-          "rating": "3.7",
-          "name": "das ,"
-        }
-      ]
+      "reviews": []
     }
   ]
 }

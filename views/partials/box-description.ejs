@@ -5,5 +5,6 @@ This partial prints out a description of the passed in listing
 -->
 
 <h2><%= listing.name %></h2>
+<h3>$<%= listing.price.toFixed(2) %></h3>
 <h3><%= listing.category %></h3>
 <p><%- listing.description %></p>
