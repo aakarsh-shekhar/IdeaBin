@@ -1,7 +1,5 @@
-Welcome to CatBnB
+Welcome to Idea Bin
 ---------------
-
-*CatBnB* is built using NodeJS and a bunch of awesome libraries. There are lots of moving parts and it can get overwhelming at times, but don't worry because all the concepts have been presented in Web 101 and Web 102 applications. After you're done you'll understand how each and everything works to create a modern web application.
 
 
 The Home Controller
