@@ -34,5 +34,5 @@ app.post( '/signup', upload.single('image'), function (request, response) {
 
   database.listings.push( form );
 
-  response.redirect( '/box/' + form.id );
+  response.redirect( '/listings');
 });

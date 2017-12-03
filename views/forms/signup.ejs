@@ -30,10 +30,19 @@ This is the signup form for adding new boxes to the site
   </div>
   
   <div>
-    <label>Deadline: </label>
-    
+  <label for="end">Project Deadline</label>
+  <input id="end" name="end">
   </div>
   
   <input type="submit" value="Submit" />
   
 </form>
+
+<script>
+
+  // Oh no! The datepicker only works on the Check In field. But vacation's gotta end eventually.
+  // Modify the code below so that the datepicker works on the Check Out field as well.
+  
+  $( '#end' ).datepicker()
+
+</script>
