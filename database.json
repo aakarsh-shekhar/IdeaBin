@@ -37,7 +37,12 @@
       "category": "Healthcare",
       "end": "05/31/2018",
       "id": 3,
-      "reviews": []
+      "reviews": [
+        {
+          "rating": "4.7",
+          "name": "alissa"
+        }
+      ]
     }
   ]
 }
