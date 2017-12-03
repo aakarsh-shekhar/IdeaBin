@@ -6,24 +6,26 @@
       "price": 1000,
       "category": "Finance",
       "end": "12/03/2017",
+      "image": "/images/6b348f4398989f4527ed108f2c83f2d6-bhsth.png",
       "id": 0,
       "reviews": []
     },
     {
-      "name": "Best Hot Technology Predictor",
-      "description": "Devise an algorithm that uses online data and APIs to identify what technologies will become commercially successful in the near future ",
-      "price": 1000,
-      "category": "Finance",
-      "end": "12/03/2017",
+      "name": "Pill Planner",
+      "description": "Design a daily pill planner for grandma",
+      "price": 50,
+      "category": "Healthcare",
+      "end": "01/31/2018",
       "id": 1,
       "reviews": []
     },
     {
-      "name": "Best Hot Technology Predictor",
-      "description": "Devise an algorithm that uses online data and APIs to identify what technologies will become commercially successful in the near future ",
-      "price": 1000,
-      "category": "Finance",
-      "end": "12/03/2017",
+      "name": "Pill Planner",
+      "description": "Design a daily pill planner for grandma",
+      "price": 50,
+      "category": "Healthcare",
+      "end": "01/15/2018",
+      "image": "/images/1696d7894820f144cb79fa65d7091c98-grandmapill.png",
       "id": 2,
       "reviews": []
     }
