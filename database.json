@@ -15,18 +15,28 @@
       "description": "Design a daily pill planner for grandma",
       "price": 50,
       "category": "Healthcare",
-      "end": "01/31/2018",
-      "id": 1,
-      "reviews": []
-    },
-    {
-      "name": "Pill Planner",
-      "description": "Design a daily pill planner for grandma",
-      "price": 50,
-      "category": "Healthcare",
       "end": "01/15/2018",
       "image": "/images/1696d7894820f144cb79fa65d7091c98-grandmapill.png",
       "id": 2,
+      "reviews": []
+    },
+    {
+      "name": "Child tracker",
+      "description": "Create a tracker for toddler so that I know where he is at all times.",
+      "price": 150,
+      "category": "Education",
+      "end": "02/01/2018",
+      "image": "/images/a663825ab77c1b66253c9961977af8e7-kidkeeperrev_web.jpg",
+      "id": 3,
+      "reviews": []
+    },
+    {
+      "name": "Cure Cancer",
+      "description": "Plot various animals' RDNA traits and combine with recent results from the National Lab Clinic. Try to design a regression model based on that.",
+      "price": 12000,
+      "category": "Healthcare",
+      "end": "05/31/2018",
+      "id": 3,
       "reviews": []
     }
   ]
