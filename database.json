@@ -1,5 +1,12 @@
 {
   "listings": [
-]
+    {
+      "name": "Best Hot Technology Predictor ",
+      "description": "Devise an algorithm that uses online data and APIs to identify what technologies will become commercially successful in the near future ",
+      "price": 1000,
+      "category": "Finance",
+      "id": 0,
+      "reviews": []
+    }
   ]
 }
