@@ -7,33 +7,6 @@
       "category": "Finance",
       "id": 0,
       "reviews": []
-    },
-    {
-      "name": "Abcd",
-      "description": "my name is abcdefghghijkl",
-      "price": 1234,
-      "category": "Education",
-      "end": "12/17/2017",
-      "id": 1,
-      "reviews": []
-    },
-    {
-      "name": "dasa",
-      "description": "awfweweg",
-      "price": 12764,
-      "category": "Education",
-      "end": "12/04/2017",
-      "id": 2,
-      "reviews": []
-    },
-    {
-      "name": "dasa",
-      "description": "awfweweg",
-      "price": 12764,
-      "category": "Education",
-      "end": "12/04/2017",
-      "id": 3,
-      "reviews": []
     }
   ]
 }
