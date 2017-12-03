@@ -15,7 +15,7 @@ app.get(  '/box/:id', function( request, response ) {
   var reviewed = request.query.reviewed === 'true';
   
   // If the user has either just booked or reviewed a box, we prepare a message for them
-  var booking_message = booked   && 'Thank you for booking with us. Your host will contact you shortly for confirmation.';
+  var booking_message = booked   && 'Thank you for choosing this project. We look forward to your solution. Please upload your solution on DevPost';
   var review_message  = reviewed && 'Thanks for your review!';
   
   // Using the id we took from params, we select corresponding listing from the database
